@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Hi, I’m a professional UI/UX designrer and web developer. 
   I love being minimal and creative.
 baseurl: "/dev" # the subpath of your site, e.g. /blog/
-url: "http://rodrioglop.es" # the base hostname & protocol for your site
+url: "http://rodrigolop.es" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Rodrigo Lopes"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
@@ -30,7 +30,7 @@ theme:
   show_author_info: true
 
   # Disqus comments manager - shortname
-  # disqus_shortname: gaya-webcreate
+  disqus_shortname: rodvlopesdevblog
 
   # Google Analytics/Webmaster key, leave blank to ignore
   google_analytics_key: 
@@ -40,7 +40,7 @@ theme:
 markdown: kramdown
 
 # Permalinks
-permalink:        pretty
+permalink:        none
 
 # Pagination config
 paginate: 10
