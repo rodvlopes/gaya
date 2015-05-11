@@ -6,19 +6,22 @@ banner_image: sample-banner-image-2.jpg
 banner_image_alt: About me
 ---
 
-Hi, I am Tom Warlker. I am a professional UI/UX designrer and web developer. I love being minimal and creative.
+Olá, sou Rodrigo Lopes, programador profissional, fascinado por Open Source, Linux e entusiasta de Open Hardware.
 
-I prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+Minhas preferências são Ruby, Javascript e Groovy, mas também ataco algumas coisas em Python, Java, Bash e C.
+
+Meu feed de notícias técnicas prefirido é o [Hacker News][HN]. Também costumo participar com frequência quase que anual desde 2010 do [Fórum Internacional do Software Livre][FISL].
+
 
 ### Contact me
 
-Say `Hello` at gayanvirajith@gmail.com or find
+Say `Hello` at rodvlopes@gmail.com or find
 me on
 
 ---
 
 {% include social.html %}
 
-[pw]: http://processwire.com
+[HN]: https://news.ycombinator.com/
+[FISL]: http://softwarelivre.org/
 [jekyll]: http://jekyllrb.com

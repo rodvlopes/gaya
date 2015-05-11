@@ -1,10 +1,10 @@
 # Site settings
 title: Dev Blog
 tagline: code every day
-email: gayanvirajith@gmail.com
+email: rodvlopes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m a professional UI/UX designrer and web developer. 
-  I love being minimal and creative.
+  Olá, sou Rodrigo Lopes, programador profissional, fascinado 
+  por Open Source, Linux e entusiasta de Open Hardware.
 baseurl: "/dev" # the subpath of your site, e.g. /blog/
 url: "http://rodrigolop.es" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
