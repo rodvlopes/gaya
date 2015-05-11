@@ -86,3 +86,15 @@ task :page do
     post.puts "---"
   end
 end # task :page
+
+# Usage: rake deploy name="about.html"
+# Build and deploy to my server
+desc "Deploy to my server."
+task :deploy do
+  sh "jekyll build"
+  #sh "scp -P 2222 -r _site/* root@v.rodrigolop.es:/var/www/dev/"
+  sh "tar -czf _site.tgz _site/*"
+  sh "scp -P 2222 _site.tgz root@v.rodrigolop.es:/var/www/"
+  sh "ssh -p 2222 root@v.rodrigolop.es 'cd /var/www; rm -fr dev; tar -xzf _site.tgz; mv _site dev; rm _site.tgz;'"
+  sh "rm _site.tgz"
+end # task :deploy
